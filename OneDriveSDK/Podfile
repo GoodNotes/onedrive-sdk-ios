@@ -2,7 +2,7 @@
 # platform :ios, '6.0'
 
 target 'OneDriveSDK' do
-    pod 'ADAL', '~> 1.2'
+    pod 'ADAL', :git => 'https://github.com/GoodNotes/microsoft-authentication-library-common-for-objc.git', :commit => 'a5dc888'
     pod 'Base32', '~> 1.1'
 end
 
